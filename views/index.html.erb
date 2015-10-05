@@ -1,0 +1,11 @@
+<h1>FSA</h1>
+
+
+<p>Welcome to the FSA website.</p>
+<p>Please select an authority in order to see a breakdown of establishment ratings.</p>
+
+<select>
+	<% @authorities.each do |auth| %>
+    	<option value= <%= auth.id %> ><%= "#{auth.name}" %></option>
+	<% end %>
+</select>
