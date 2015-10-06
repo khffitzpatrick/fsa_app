@@ -3,8 +3,8 @@
 # However if the required headers/ url change it should be easy to update.
 module FSA_Authorities
 
-	URL = 'http://ratings.food.gov.uk/authorities/json'
-		
+	URL = 'http://api.ratings.food.gov.uk/authorities/basic'
+
 	HEADERS = { 'accept' => 'application/json', 
 				'content-type' => 'application/json', 
 				'x-api-version' => '2',

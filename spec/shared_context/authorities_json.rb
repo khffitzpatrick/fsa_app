@@ -13,7 +13,7 @@ shared_context 'authorities json' do
     	'[{"rel":"self","href":"http://api.ratings.food.gov.uk/authorities/277"}]}]}'
    	end
 
-    let (:mock_authorities) do
+    let (:expected_authorities) do
         [Authority.new("Aberdeen City", 197),
         Authority.new("Aberdeenshire", 198),
         Authority.new("Adur", 277)]

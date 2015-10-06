@@ -7,7 +7,7 @@ class Authority
 		@id = id
 	end
 
-	#I can't decide whether this is really clever or really dirty just to satisfy 
+	#I can't decide whether this is clever or really dirty just to satisfy 
 	# authorities_service_spec.rb
 	# Pros: It is a legitimate comparison for this object in its current conception.
 	# Cons: makes the code slightly less maintainable and harder to extend - extra thing to

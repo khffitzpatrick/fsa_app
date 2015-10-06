@@ -1,11 +1,29 @@
-<h1>FSA</h1>
-
-
 <p>Welcome to the FSA website.</p>
 <p>Please select an authority in order to see a breakdown of establishment ratings.</p>
 
 <select>
+	<option onselect=<%= @selected = nil %>> -- select an option -- </option>
 	<% @authorities.each do |auth| %>
-    	<option value= <%= auth.id %> ><%= "#{auth.name}" %></option>
+    	<option value= <%= auth.id %> onselect=<% @selected = auth %><% "#{auth.name}" %></option>
 	<% end %>
 </select>
+
+<button onclick=<% puts "#{@selected} is selected" %>>Submit</button>
+
+<p></p>
+
+<% unless @ratings.nil? || @ratings.empty? %>
+	<table border="1" style="width:50%">>
+	  <tr>
+	    <th>Rating</th>
+	    <th>Percentage</th>
+	  </tr>
+
+	  <% @ratings.each do |rating| %>
+	  <tr>
+	    <td><%= "#{rating.star_value}" %></td>
+	    <td><%= "#{rating.percentage}" %></td>
+	  </tr>
+	  <% end %>
+	</table>
+<% end %>

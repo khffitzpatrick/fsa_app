@@ -1,0 +1,150 @@
+<FHRSEstablishment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Header>
+<ExtractDate>2015-10-03</ExtractDate>
+<ItemCount>5</ItemCount>
+<ReturnCode>Success</ReturnCode>
+</Header>
+<EstablishmentCollection>
+<EstablishmentDetail>
+<FHRSID>734479</FHRSID>
+<LocalAuthorityBusinessID>PI/000038330</LocalAuthorityBusinessID>
+<BusinessName>A Step Ahead Nursery</BusinessName>
+<BusinessType>Hospitals/Childcare/Caring Premises</BusinessType>
+<BusinessTypeID>5</BusinessTypeID>
+<AddressLine1>Lancing Children And Family Centre</AddressLine1>
+<AddressLine2>42 North Road</AddressLine2>
+<AddressLine3>Lancing</AddressLine3>
+<AddressLine4>West Sussex</AddressLine4>
+<PostCode>BN15 9AB</PostCode>
+<RatingValue>4</RatingValue>
+<RatingKey>fhrs_4_en-GB</RatingKey>
+<RatingDate>2015-01-13</RatingDate>
+<LocalAuthorityCode>323</LocalAuthorityCode>
+<LocalAuthorityName>Adur</LocalAuthorityName>
+<LocalAuthorityWebSite>http://www.adur-worthing.gov.uk</LocalAuthorityWebSite>
+<LocalAuthorityEmailAddress>envsupport@adur-worthing.gov.uk</LocalAuthorityEmailAddress>
+<Scores>
+<Hygiene>10</Hygiene>
+<Structural>5</Structural>
+<ConfidenceInManagement>5</ConfidenceInManagement>
+</Scores>
+<SchemeType>FHRS</SchemeType>
+<NewRatingPending>False</NewRatingPending>
+<Geocode>
+<Longitude>-0.32232300000000</Longitude>
+<Latitude>50.82794400000000</Latitude>
+</Geocode>
+</EstablishmentDetail>
+<EstablishmentDetail>
+<FHRSID>715415</FHRSID>
+<LocalAuthorityBusinessID>PI/000037860</LocalAuthorityBusinessID>
+<BusinessName>A Step Ahead Shoreham</BusinessName>
+<BusinessType>Hospitals/Childcare/Caring Premises</BusinessType>
+<BusinessTypeID>5</BusinessTypeID>
+<AddressLine1>Kingston Buci Children And Family Centre</AddressLine1>
+<AddressLine2>Middle Road</AddressLine2>
+<AddressLine3>Shoreham-By-Sea</AddressLine3>
+<AddressLine4>West Sussex</AddressLine4>
+<PostCode>BN43 6GA</PostCode>
+<RatingValue>5</RatingValue>
+<RatingKey>fhrs_5_en-GB</RatingKey>
+<RatingDate>2015-09-16</RatingDate>
+<LocalAuthorityCode>323</LocalAuthorityCode>
+<LocalAuthorityName>Adur</LocalAuthorityName>
+<LocalAuthorityWebSite>http://www.adur-worthing.gov.uk</LocalAuthorityWebSite>
+<LocalAuthorityEmailAddress>envsupport@adur-worthing.gov.uk</LocalAuthorityEmailAddress>
+<Scores>
+<Hygiene>5</Hygiene>
+<Structural>5</Structural>
+<ConfidenceInManagement>5</ConfidenceInManagement>
+</Scores>
+<SchemeType>FHRS</SchemeType>
+<NewRatingPending>False</NewRatingPending>
+<Geocode>
+<Longitude>-0.26105900000000</Longitude>
+<Latitude>50.83615700000000</Latitude>
+</Geocode>
+</EstablishmentDetail>
+<EstablishmentDetail>
+<FHRSID>371680</FHRSID>
+<LocalAuthorityBusinessID>PI/000018357</LocalAuthorityBusinessID>
+<BusinessName>Adur Catering</BusinessName>
+<BusinessType>Other catering premises</BusinessType>
+<BusinessTypeID>7841</BusinessTypeID>
+<RatingValue>5</RatingValue>
+<RatingKey>fhrs_5_en-GB</RatingKey>
+<RatingDate>2015-03-30</RatingDate>
+<LocalAuthorityCode>323</LocalAuthorityCode>
+<LocalAuthorityName>Adur</LocalAuthorityName>
+<LocalAuthorityWebSite>http://www.adur-worthing.gov.uk</LocalAuthorityWebSite>
+<LocalAuthorityEmailAddress>envsupport@adur-worthing.gov.uk</LocalAuthorityEmailAddress>
+<Scores>
+<Hygiene>0</Hygiene>
+<Structural>0</Structural>
+<ConfidenceInManagement>0</ConfidenceInManagement>
+</Scores>
+<SchemeType>FHRS</SchemeType>
+<NewRatingPending>False</NewRatingPending>
+<Geocode/>
+</EstablishmentDetail>
+<EstablishmentDetail>
+<FHRSID>732974</FHRSID>
+<LocalAuthorityBusinessID>PI/000038316</LocalAuthorityBusinessID>
+<BusinessName>Adur Indoor Bowling Club Caterers</BusinessName>
+<BusinessType>Restaurant/Cafe/Canteen</BusinessType>
+<BusinessTypeID>1</BusinessTypeID>
+<AddressLine1>Adur Indoor Bowling Club</AddressLine1>
+<AddressLine2>Old Barn Way</AddressLine2>
+<AddressLine3>Southwick</AddressLine3>
+<AddressLine4>West Sussex</AddressLine4>
+<PostCode>BN42 4NT</PostCode>
+<RatingValue>3</RatingValue>
+<RatingKey>fhrs_3_en-GB</RatingKey>
+<RatingDate>2015-01-21</RatingDate>
+<LocalAuthorityCode>323</LocalAuthorityCode>
+<LocalAuthorityName>Adur</LocalAuthorityName>
+<LocalAuthorityWebSite>http://www.adur-worthing.gov.uk</LocalAuthorityWebSite>
+<LocalAuthorityEmailAddress>envsupport@adur-worthing.gov.uk</LocalAuthorityEmailAddress>
+<Scores>
+<Hygiene>10</Hygiene>
+<Structural>10</Structural>
+<ConfidenceInManagement>10</ConfidenceInManagement>
+</Scores>
+<SchemeType>FHRS</SchemeType>
+<NewRatingPending>False</NewRatingPending>
+<Geocode>
+<Longitude>-0.22441500000000</Longitude>
+<Latitude>50.83433700000000</Latitude>
+</Geocode>
+</EstablishmentDetail>
+<EstablishmentDetail>
+<FHRSID>798103</FHRSID>
+<LocalAuthorityBusinessID>PI/000038474</LocalAuthorityBusinessID>
+<BusinessName>Albion Inn</BusinessName>
+<BusinessType>Pub/bar/nightclub</BusinessType>
+<BusinessTypeID>7843</BusinessTypeID>
+<AddressLine1>13 Fishersgate Terrace</AddressLine1>
+<AddressLine2>Southwick</AddressLine2>
+<AddressLine3>West Sussex</AddressLine3>
+<PostCode>BN41 1PH</PostCode>
+<RatingValue>5</RatingValue>
+<RatingKey>fhrs_5_en-GB</RatingKey>
+<RatingDate>2015-08-20</RatingDate>
+<LocalAuthorityCode>323</LocalAuthorityCode>
+<LocalAuthorityName>Adur</LocalAuthorityName>
+<LocalAuthorityWebSite>http://www.adur-worthing.gov.uk</LocalAuthorityWebSite>
+<LocalAuthorityEmailAddress>envsupport@adur-worthing.gov.uk</LocalAuthorityEmailAddress>
+<Scores>
+<Hygiene>0</Hygiene>
+<Structural>0</Structural>
+<ConfidenceInManagement>5</ConfidenceInManagement>
+</Scores>
+<SchemeType>FHRS</SchemeType>
+<NewRatingPending>False</NewRatingPending>
+<Geocode>
+<Longitude>-0.21833700000000</Longitude>
+<Latitude>50.83098000000000</Latitude>
+</Geocode>
+</EstablishmentDetail>
+</EstablishmentCollection>
+</FHRSEstablishment>

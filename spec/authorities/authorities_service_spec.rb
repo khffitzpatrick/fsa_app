@@ -5,7 +5,7 @@ describe Authorities_Service do
 
 	describe '#parse_authorities' do
 		it 'parses the authorities json' do
-			expect(subject.parse_authorities).to be == mock_authorities
+			expect(subject.parse_authorities).to be == expected_authorities
 		end
 	end
 end

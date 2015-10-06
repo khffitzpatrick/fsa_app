@@ -1,0 +1,38 @@
+<FHRSEstablishment xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Header>
+<ExtractDate>2015-10-03</ExtractDate>
+<ReturnCode>Success</ReturnCode>
+</Header>
+<EstablishmentCollection>
+<EstablishmentDetail>
+<FHRSID>734479</FHRSID>
+<LocalAuthorityBusinessID>PI/000038330</LocalAuthorityBusinessID>
+<BusinessName>A Step Ahead Nursery</BusinessName>
+<BusinessType>Hospitals/Childcare/Caring Premises</BusinessType>
+<BusinessTypeID>5</BusinessTypeID>
+<AddressLine1>Lancing Children And Family Centre</AddressLine1>
+<AddressLine2>42 North Road</AddressLine2>
+<AddressLine3>Lancing</AddressLine3>
+<AddressLine4>West Sussex</AddressLine4>
+<PostCode>BN15 9AB</PostCode>
+<RatingValue>4</RatingValue>
+<RatingKey>fhrs_4_en-GB</RatingKey>
+<RatingDate>2015-01-13</RatingDate>
+<LocalAuthorityCode>323</LocalAuthorityCode>
+<LocalAuthorityName>Adur</LocalAuthorityName>
+<LocalAuthorityWebSite>http://www.adur-worthing.gov.uk</LocalAuthorityWebSite>
+<LocalAuthorityEmailAddress>envsupport@adur-worthing.gov.uk</LocalAuthorityEmailAddress>
+<Scores>
+<Hygiene>10</Hygiene>
+<Structural>5</Structural>
+<ConfidenceInManagement>5</ConfidenceInManagement>
+</Scores>
+<SchemeType>FHRS</SchemeType>
+<NewRatingPending>False</NewRatingPending>
+<Geocode>
+<Longitude>-0.32232300000000</Longitude>
+<Latitude>50.82794400000000</Latitude>
+</Geocode>
+</EstablishmentDetail>
+</EstablishmentCollection>
+</FHRSEstablishment>

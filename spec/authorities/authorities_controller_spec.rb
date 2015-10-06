@@ -6,14 +6,14 @@ describe Authorities_Controller do
 	describe '#load_authorities' do
 		
     	context 'the FSA api returns a list of authorities' do
-    		include_context 'successful fsa api call'
+    		include_context 'successful authorities api call'
 
 			it 'loads a list of authorities' do
-				expect(subject.load_authorities).to be == mock_authorities
+				expect(subject.load_authorities).to be == expected_authorities
 			end
 
 			it 'creates authority objects from the list' do
-				expect(subject.load_authorities).to be == mock_authorities
+				expect(subject.load_authorities).to be == expected_authorities
 			end
 
 
@@ -23,7 +23,7 @@ describe Authorities_Controller do
 		end
 
 		context 'there is an error retriving authorities from the FSA api' do
-			include_context 'unsuccessful fsa api call'
+			include_context 'unsuccessful authorities api call'
 
 			it 'returns an empty array' do
 				expect(subject.load_authorities).to be_kind_of(Array)

@@ -20,6 +20,9 @@ rake test:rspec_nyan  # Run Rspec tests with NyanCat
 
 
 
-###
+### Assumptions
+
+In the Hygiene_Mapping module I have made assumptions based on the descriptions
+of the scores, e.g. that 'Very Good',0 equates to a 5-star rating.
 
 Challenge connecting to the FSA api, 

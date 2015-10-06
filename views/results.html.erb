@@ -1,0 +1,16 @@
+<p>Food Hygiene Ratings for <%= "#{selected.name}" %>.</p>
+
+
+<table border="1" style="width:50%">>
+  <tr>
+    <th>Rating</th>
+    <th>Percentage</th>
+  </tr>
+
+  <% @ratings.each do |rating| %>
+  <tr>
+    <td><%= "#{rating.star_value}" %></td>
+    <td><%= "#{rating.percentage}" %></td>
+  </tr>
+  <% end %>
+</table>
