@@ -13,5 +13,5 @@ group :test do
   gem 'simplecov'
   gem 'pry'
   gem 'rake'
-  gem 'webmock/rspec'
+  gem 'webmock'
 end
