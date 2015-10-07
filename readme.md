@@ -31,8 +31,6 @@ Run rake -T to see the rake tasks available:
 
 ``rake test:all         # Run all the tests and print out documentation``
 
-``rake test:features    # Run Cucumber features``
-
 ``rake test:rspec       # Run Rspec tests with documentation``
 
 ``rake test:rspec_nyan  # Run Rspec tests with NyanCat``
