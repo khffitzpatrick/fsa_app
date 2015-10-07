@@ -3,13 +3,18 @@
 This app is written in [Rack](https://github.com/rack/rack), a modular Ruby webserver interface.
 
 In order to run the app, you will need to run:
+
 `rackup lib/fsa_app.ru`
-from within the folder structure.
+
+from within the directory structure.
+This will log out a port, from which you can connect with the app in your browser, e.g. 
+
+http://localhost:9292/
 
 ## Developer installation
 
 You will need [RVM](https://rvm.io/rvm/install) installed.
-To easily install all of the project's required gems, install [Bundler](http://bundler.io/) by running the following in terminal:
+To easily install all of the project's dependencies, install [Bundler](http://bundler.io/) by running the following in terminal:
 
 `gem install bundler`
 
