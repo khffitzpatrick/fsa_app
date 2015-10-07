@@ -4,7 +4,6 @@ gem 'rack'
 gem 'nokogiri'
 
 group :test do
-  gem 'cucumber'
   gem 'rspec'
   gem 'nyan-cat-formatter'
   gem 'simplecov'

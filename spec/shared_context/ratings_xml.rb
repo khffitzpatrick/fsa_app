@@ -24,20 +24,20 @@ shared_context 'ratings xml' do
 
     let (:expected_ratings_full) {    
     	[Rating.new("Exempt", "6%"), 
-    	 Rating.new("1-star", "6%"),
-    	 Rating.new("2-star", "3%"),
-    	 Rating.new("3-star", "12%"),
-    	 Rating.new("4-star", "21%"),
-    	 Rating.new("5-star", "52%")] 
+    	 Rating.new("5-star", "52%"),
+       Rating.new("4-star", "21%"),
+       Rating.new("3-star", "12%"),
+       Rating.new("2-star", "3%"),
+       Rating.new("1-star", "6%")]
     }
 
     let (:expected_ratings_partial) {    
         [Rating.new("Exempt", "0%"), 
-         Rating.new("1-star", "0%"),
-         Rating.new("2-star", "0%"),
-         Rating.new("3-star", "20%"),
+         Rating.new("5-star", "60%"),
          Rating.new("4-star", "20%"),
-         Rating.new("5-star", "60%")] 
+         Rating.new("3-star", "20%"),
+         Rating.new("2-star", "0%"),
+         Rating.new("1-star", "0%")] 
     }
     
 end
