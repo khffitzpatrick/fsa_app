@@ -18,16 +18,19 @@ Then within the project directory, run:
 `bundle install`
 
 
-## Running the tests using rake
+## Running the tests using Rake
 
-Ensure you are in the fsa_app directory in a console window.
+Ensure you are in the fsa_app directory in a terminal window.
 
 Run rake -T to see the rake tasks available:
 
-```rake test:all         # Run all the tests and print out documentation
-rake test:features    # Run Cucumber features
-rake test:rspec       # Run Rspec tests with documentation
-rake test:rspec_nyan  # Run Rspec tests with NyanCat```
+``rake test:all         # Run all the tests and print out documentation``
+
+``rake test:features    # Run Cucumber features``
+
+``rake test:rspec       # Run Rspec tests with documentation``
+
+``rake test:rspec_nyan  # Run Rspec tests with NyanCat``
 
 
 ## Assumptions and Limitations
@@ -35,5 +38,7 @@ rake test:rspec_nyan  # Run Rspec tests with NyanCat```
 This app assumes that the JSON and XML returned from the FSA api has no errors and is in the expected format.
 
 Limitations:
+
 -There is no error handling when the user selects the default drop-down option.
+
 -There is no 'return' function on the results page.
