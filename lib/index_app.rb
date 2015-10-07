@@ -1,4 +1,5 @@
 require_relative 'authorities/authorities_controller'
+require_relative 'results_app'
 require_relative 'modules/template_library'
 
 #Retrieve a list of local authorities and display them to the user
@@ -9,6 +10,7 @@ class Index_App
  	
 	def initialize
 		@authorities_controller = Authorities_Controller.new
+		@selected = nil
 	end
 
 	def call env 
@@ -18,4 +20,5 @@ class Index_App
 		[status_code, {'Content-Type' => 'text/html'}, 
 			[render_template(template)]]
 	end
+
 end

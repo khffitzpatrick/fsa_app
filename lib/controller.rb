@@ -10,7 +10,6 @@ class Controller
 	def load_values url, headers, return_value, &service
 		uri = URI.parse(url)
 		http = Net::HTTP.new(uri.host, uri.port)
-
 		begin 
 			http.read_timeout = 120
 			response = http.request_get uri.request_uri, headers
@@ -22,3 +21,4 @@ class Controller
 	end
 
 end
+

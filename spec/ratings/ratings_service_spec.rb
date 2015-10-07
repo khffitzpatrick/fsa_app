@@ -1,10 +1,10 @@
 describe Ratings_Service do
 
 	include_context 'ratings xml'
-	let (:subject_with_full_data) {described_class.new(ratings_xml_full)}
-	let (:subject_with_partial_data) {described_class.new(ratings_xml_partial)}
-	let (:subject_with_empty_data) {described_class.new(ratings_xml_empty)}
-	let (:subject_with_invalid_data) {described_class.new(ratings_xml_no_total)}
+	let (:subject_with_full_data) {described_class.new(ratings_full)}
+	let (:subject_with_partial_data) {described_class.new(ratings_partial)}
+	let (:subject_with_empty_data) {described_class.new(ratings_empty)}
+	let (:subject_with_invalid_data) {described_class.new(ratings_no_total)}
 
 	describe '#parse_ratings' do
 		

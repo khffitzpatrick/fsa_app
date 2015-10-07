@@ -1,13 +1,14 @@
+require 'nokogiri'
 require_relative '../modules/star_values'
 require_relative 'rating'
 
 #This tallys up the hygiene ratings and calculates the percentage of each star
-# rating for the local authority
+# rating for the local authority.
 class Ratings_Service
 	include Star_Values
 
 	def initialize rating_xml
-		@rating_xml = rating_xml
+		@rating_xml = Nokogiri::XML(rating_xml)
 	end
 
 	def parse_ratings

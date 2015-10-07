@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'nokogiri'
 gem 'rack'
 gem 'erb'
+gem 'json'
+gem 'net/http'
+gem 'nokogiri'
 
 group :test do
   gem 'cucumber'
@@ -11,4 +13,5 @@ group :test do
   gem 'simplecov'
   gem 'pry'
   gem 'rake'
+  gem 'webmock/rspec'
 end

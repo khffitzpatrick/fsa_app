@@ -1,27 +1,26 @@
 shared_context 'ratings xml' do
 
-  	let (:ratings_xml_full) do
-        open_xml 'ratings_full'
+  	let (:ratings_full) do
+        open_file 'ratings_full'
    	end
 
-    let (:ratings_xml_partial) do
-        open_xml 'ratings_partial'
+    let (:ratings_partial) do
+        open_file 'ratings_partial'
     end
 
-    let (:ratings_xml_empty) do
-        open_xml 'ratings_empty'
+    let (:ratings_empty) do
+        open_file 'ratings_empty'
     end
 
-    let (:ratings_xml_no_total) do
-        open_xml 'ratings_no_total'
+    let (:ratings_no_total) do
+        open_file 'ratings_no_total'
     end
 
-    def open_xml file_path 
-        f = File.open("#{__dir__}/../sample_data/#{file_path}.xml")
-        doc = Nokogiri::XML(f)
-        f.close
-        doc
+    def open_file file_path 
+        File.open("#{__dir__}/../sample_data/#{file_path}.xml")
     end
+
+    let (:sample_url) {'http://ratings.food.gov.uk/OpenDataFiles/FHRS323en-GB.xml'}
 
     let (:expected_ratings_full) {    
     	[Rating.new("Exempt", "6%"), 

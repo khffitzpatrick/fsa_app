@@ -1,11 +1,22 @@
 # FSA_APP
 
-rackup lib/fsa_app.ru
+This app is written in [Rack](https://github.com/rack/rack), a modular Ruby webserver interface.
 
+In order to run the app, you will need to run:
+`rackup lib/fsa_app.ru`
+from within the folder structure.
 
-##
+## Developer installation
 
-###
+You will need [RVM](https://rvm.io/rvm/install) installed.
+To easily install all of the project's required gems, install [Bundler](http://bundler.io/) by running the following in terminal:
+
+`gem install bundler`
+
+Then within the project directory, run:
+
+`bundle install`
+
 
 ## Running the tests using rake
 
@@ -13,16 +24,16 @@ Ensure you are in the fsa_app directory in a console window.
 
 Run rake -T to see the rake tasks available:
 
-rake test:all         # Run all the tests and print out documentation
+```rake test:all         # Run all the tests and print out documentation
 rake test:features    # Run Cucumber features
 rake test:rspec       # Run Rspec tests with documentation
-rake test:rspec_nyan  # Run Rspec tests with NyanCat
+rake test:rspec_nyan  # Run Rspec tests with NyanCat```
 
 
+## Assumptions and Limitations
 
-### Assumptions
+This app assumes that the JSON and XML returned from the FSA api has no errors and is in the expected format.
 
-In the Hygiene_Mapping module I have made assumptions based on the descriptions
-of the scores, e.g. that 'Very Good',0 equates to a 5-star rating.
-
-Challenge connecting to the FSA api, 
+Limitations:
+-There is no error handling when the user selects the default drop-down option.
+-There is no 'return' function on the results page.

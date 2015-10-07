@@ -12,5 +12,5 @@ class Rating
 	def == other_rating
 		@star_value == other_rating.star_value && @percentage == other_rating.percentage
 	end
-
+	
 end	

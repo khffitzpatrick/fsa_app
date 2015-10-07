@@ -22,7 +22,7 @@ describe Index_App do
 			end
 		end
 
-		context 'there is an error retriving authorities from the FSA api' do
+		context 'there is an error retrieving authorities from the FSA api' do
 			it 'displays an error' do
 				expect(subject.authorities_controller).to receive(:load_authorities).and_return([])	
 				expect(subject).to receive(:render_template).with(Template_Library::ERROR)

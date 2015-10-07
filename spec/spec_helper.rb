@@ -3,7 +3,6 @@ $LOAD_PATH.unshift("#{__dir__}/lib")
 require 'simplecov'
 require 'webmock/rspec'
 require 'json'
-require 'nokogiri'
 require 'index_app'
 require 'results_app'
 require 'authorities/authorities_controller'
@@ -15,6 +14,7 @@ require 'ratings/ratings_controller'
 require 'shared_context/authorities_json'
 require 'shared_context/authorities_api_call'
 require 'shared_context/ratings_xml'
+require 'shared_context/ratings_api_call'
 
 SimpleCov.start
 

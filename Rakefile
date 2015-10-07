@@ -1,6 +1,7 @@
 require 'cucumber'
 require 'cucumber/rake/task'
 require 'rspec/core/rake_task'
+require 'rubocop/rake_task'
 
 namespace :test do
 
@@ -25,3 +26,8 @@ namespace :test do
 end
 
 task :default => 'test:all'
+
+desc 'Run code style checker'
+RuboCop::RakeTask.new(:rubocop) do |task|
+  task.options = %w{--display-cop-names --display-style-guide}
+end
